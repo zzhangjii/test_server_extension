@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name="Server_git",
+    name="test_server_extension",
     version='0.0.1',
     url="https://github.com/ryanlovett/nbrsessionproxy",
     author="Ryan Lovett",
