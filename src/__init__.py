@@ -1,9 +1,9 @@
-from JL_git.handlers import setup_handlers
+from src.handlers import setup_handlers
 
 # Jupyter Extension points
 def _jupyter_server_extension_paths():
     return [{
-        'module': 'JL_git',
+        'module': 'test_server_extension',
     }]
 
 def _jupyter_nbextension_paths():
